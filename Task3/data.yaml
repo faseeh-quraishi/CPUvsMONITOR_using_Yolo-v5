@@ -1,0 +1,8 @@
+
+train: /content/train  # train images (relative to 'path') 128 images
+val: /content/val # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+
+# Classes
+nc: 11  # number of classes
+names: ['karela','tori','bhindi','horseweed','herb paris','grass','small weed','Monitor', 'CPU','Speaker','Webcam']  # class names
